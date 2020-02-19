@@ -628,9 +628,6 @@
   margin-right: 20px;
 }
 
-.tablecontainer .datatable thead tr th .tablehdr {
-  min-height: 0rem !important;
-}
 
 .tablecontainer .datatable tr th {
   font-size: 13px;

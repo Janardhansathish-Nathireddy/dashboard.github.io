@@ -82,7 +82,9 @@
     }
 
     .container123 .main_container1 .main_container1row .coldivison {
-        margin: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
     }
 
     .container123 .main_container1 .detailsoncard {
@@ -118,13 +120,9 @@
         margin-left: 5em;
     }
 
-    .container123 .table-filter {
-        width: 100% !important;
-        margin-left: 0px;
-    }
 
     .table-filter .datahidingbtn {
-        margin-left: 12rem;
+        margin-left: 13.5rem;
     }
 
     .container123 .table-filter {
@@ -132,6 +130,7 @@
         margin-left: 0px;
         height: 120px;
         margin-bottom: 15px;
+        margin-top: 30px;
     }
 
     .container123 .table-filter .filters input.searchbox1 {
@@ -144,12 +143,12 @@
     }
 
     .container123 .table-filter .filters .custchkbx {
-        margin-left: 1.5em;
+        margin-left: 2em;
 
     }
 
     .container123 .table-filter .filters i.filterbtn {
-        margin-left: 0.4em;
+        margin-left: 0.3em;
     }
 
     .container123 .table-filter .filters i.sortbtn {
