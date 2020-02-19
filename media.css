@@ -1,0 +1,932 @@
+/**Media Queries**/
+@media (min-width:1px) and (max-width:360px) {
+
+    .mainbody {
+        width: 100% !important;
+    }
+
+    .wrapper .top_navbar .top_menu .company {
+        padding-left: 0px !important;
+    }
+
+    .wrapper .top_navbar .top_menu .user-data a .fa-cog {
+        display: none;
+    }
+
+    .wrapper .top_navbar .top_menu .user-data .username {
+        display: none;
+    }
+
+    .wrapper .top_navbar .top_menu .user-data .user-img img {
+        margin-right: 10px;
+    }
+
+    .wrapper .sidebar {
+        left: -70px;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .wrapper.collapse .sidebar {
+        width: 60% !important;
+        left: 0px;
+        position: absolute;
+    }
+
+    .wrapper .sidebar ul li a {
+        padding: 13.5px;
+    }
+
+    .wrapper.collapse .sidebar ul li a {
+        padding: 13.5px;
+    }
+
+    .wrapper.collapse .sidebar ul li a span.icon {
+        padding-left: 9.5px;
+    }
+
+
+    .wrapper.collapse .sidebar ul li a span.title {
+        font-size: 14px !important;
+    }
+
+    .container123 .menu-item {
+        height: 53px;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+
+    .container123 .menu-item h4 {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .container123 .menu-item button i {
+        padding-right: 8px;
+    }
+
+    .container123 .menu-item .submenubtn {
+        font-size: 8px;
+        width: 85px;
+        margin-left: 38%;
+    }
+
+
+
+    .main_container {
+        width: 100% !important;
+        margin: 0px;
+    }
+
+    .container123 .main_container .containerrow {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container123 .main_container .containerrow .ordercard1 {
+        padding-right: 15px !important;
+        margin-top: 15px;
+    }
+
+    .main_container .cardfordata .rightcards {
+        padding: 15px;
+        padding-left: 30px;
+    }
+
+    .main_container .card .card-body .mainheader .sideimg .sideimg1 {
+        margin-left: 8em;
+    }
+
+    .main_container .card .card-body .mainheader .sideimg .sideimg2 {
+        margin-left: 5.7em;
+    }
+
+    .container123 .main_container .containerrow .ordercard1 .cardfordata12 {
+        margin-top: 15px !important;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row .productcard11 {
+        margin-top: 15px !important;
+        margin-left: 12px !important;
+        margin-right: 11px !important;
+    }
+
+
+    .container123 .main_container .containerrow .productcard1 .row .cardfordata {
+        height: auto !important;
+    }
+
+    .main_container .card .card-body .dataoncard .checkdiv1 {
+        margin-left: 4em;
+    }
+
+
+    .main_container .card .card-body .dataoncard .downtxt1 {
+        margin-left: 8em;
+    }
+
+
+    /*Circle-1*/
+    .main_container .card .card-body .datacrcls .imgbox .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row .productcard12 {
+        margin-left: 27px !important;
+        margin-top: 15px;
+
+    }
+
+    /*Circle-2*/
+    .main_container .card .card-body .datacrcls .imgbox1 .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .main_container .card .card-body .datacrcls {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .colrcrcls {
+        margin-left: 5px;
+
+    }
+
+
+    .container123 .productcard131 {
+        display: none;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .productcard13 {
+        margin-top: 15px !important;
+        margin-left: 12px !important;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .productcard13 .cardfordata123 {
+        margin-right: 12px;
+        height: 190px !important;
+    }
+
+    .main_container .card .card-body .datacrcls .rings {
+        margin-top: 0.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .rings1 {
+
+        margin-top: 0.5em;
+        margin-left: 15px;
+    }
+
+    .main_container .card .card-body .datacrcls .downtxt {
+        margin-left: 2.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .downtxt1 {
+        margin-left: 3.5em;
+    }
+
+
+    .main_container .card .card-body .datacrcls h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .main_container .card .lastcard .rightside-hdr {
+        margin-top: 38px;
+    }
+
+    .main_container .card .lastcard .human-icon {
+        margin-top: -4em;
+        margin-left: 6.5em;
+    }
+
+    .main_container .card .lastcard .human-icon .human2 {
+        display: none;
+    }
+
+
+    .table-filter .datahidingbtn {
+        margin-left: 12rem;
+    }
+
+    .table-filter {
+        width: 100%;
+        margin-left: 0px;
+        height: 120px;
+    }
+
+    .table-filter .filters input.searchbox1 {
+        padding-left: 30px;
+        padding-right: 0px;
+        margin-left: 1.5em;
+        background-position: 7px 4px;
+    }
+
+    .table-filter .filters input.searchbox2 {
+        border: none;
+        width: 110px;
+        margin-left: 15px;
+
+    }
+
+    .table-filter .filters i.filtericon {
+        margin-left: 1.5em;
+        margin-right: 2em;
+    }
+
+    .table-filter .filters i.sortbtn {
+        margin-left: 1em;
+        margin-top: 2em;
+        margin-right: 2em;
+
+    }
+
+    .table-filter .filters i.iconbtn {
+        margin-right: 2em;
+        margin-left: 1em;
+    }
+
+    .table-filter .filters button.actionbtn {
+        padding: 0px 20px;
+        margin-top: -5px;
+
+    }
+
+    .table-filter .filters .actionbtn i.downbtnn {
+        margin-left: 18px;
+    }
+
+    .tablecontainer {
+        overflow-x: scroll;
+        max-width: 100%;
+    }
+
+    .tablecontainer .datatable {
+        width: 300%;
+    }
+
+}
+
+
+@media (min-width:361px) and (max-width:767px) {
+    .mainbody {
+        overflow-y: scroll !important;
+        width: 100% !important;
+    }
+
+    .wrapper .top_navbar .top_menu .company {
+        padding-left: 0px !important;
+    }
+
+    .wrapper .top_navbar .top_menu .user-data a .fa-cog {
+        display: none;
+    }
+
+    .wrapper .top_navbar .top_menu .user-data .username {
+        display: none;
+    }
+
+    .wrapper .top_navbar .top_menu .user-data .user-img img {
+        margin-right: 10px;
+    }
+
+    .wrapper .sidebar {
+        left: -70px;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .wrapper.collapse .sidebar {
+        width: 60% !important;
+        left: 0px;
+        position: absolute;
+    }
+
+    .wrapper .sidebar ul li a {
+        padding: 13.5px;
+    }
+
+    .wrapper.collapse .sidebar ul li a {
+        padding: 13.5px;
+    }
+
+    .wrapper.collapse .sidebar ul li a span.icon {
+        padding-left: 9.5px;
+    }
+
+
+    .wrapper.collapse .sidebar ul li a span.title {
+        font-size: 14px !important;
+    }
+
+
+    .container123 .menu-item {
+        height: 53px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .container123 .menu-item h4 {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .container123 .menu-item button i {
+        padding-right: 8px;
+    }
+
+    .container123 .menu-item .submenubtn {
+        font-size: 8px;
+        width: 85px;
+        margin-left: 43%;
+    }
+
+    .main_container {
+        width: 100% !important;
+        margin: 0px;
+    }
+
+    .container123 .main_container .containerrow {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container123 .main_container .containerrow .ordercard1 {
+        padding-right: 15px !important;
+        margin-top: 15px;
+    }
+
+    .main_container .cardfordata .rightcards {
+        padding: 15px;
+        padding-left: 30px;
+    }
+
+    .main_container .card .card-body .mainheader .sideimg .sideimg1 {
+        margin-left: 8em;
+    }
+
+    .main_container .card .card-body .mainheader .sideimg .sideimg2 {
+        margin-left: 5.7em;
+    }
+
+    .container123 .main_container .containerrow .ordercard1 .cardfordata12 {
+        margin-top: 15px !important;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row .productcard11 {
+        margin-top: 15px !important;
+        margin-left: 12px !important;
+        margin-right: 11px !important;
+    }
+
+
+    .container123 .main_container .containerrow .productcard1 .row .cardfordata {
+        height: auto !important;
+    }
+
+    .main_container .card .card-body .dataoncard .checkdiv1 {
+        margin-left: 4em;
+    }
+
+
+    .main_container .card .card-body .dataoncard .downtxt1 {
+        margin-left: 8em;
+    }
+
+
+    /*Circle-1*/
+    .main_container .card .card-body .datacrcls .imgbox .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row .productcard12 {
+        margin-left: 27px !important;
+        margin-top: 15px;
+
+    }
+
+    /*Circle-2*/
+    .main_container .card .card-body .datacrcls .imgbox1 .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .main_container .card .card-body .datacrcls {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .colrcrcls {
+        margin-left: 5px;
+
+    }
+
+
+    .container123 .productcard131 {
+        display: none;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .productcard13 {
+        margin-top: 15px !important;
+        margin-left: 12px !important;
+
+    }
+
+    .container123 .main_container .containerrow .productcard1 .productcard13 .cardfordata123 {
+        margin-right: 12px;
+        height: 190px !important;
+    }
+
+    .main_container .card .card-body .datacrcls .rings {
+        margin-top: 0.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .rings1 {
+
+        margin-top: 0.5em;
+        margin-left: 15px;
+    }
+
+    .main_container .card .card-body .datacrcls .downtxt {
+        margin-left: 2.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .downtxt1 {
+        margin-left: 3.5em;
+    }
+
+
+    .main_container .card .card-body .datacrcls h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .main_container .card .lastcard .rightside-hdr {
+        margin-top: 38px;
+    }
+
+    .main_container .card .lastcard .human-icon {
+        margin-top: -4em;
+        margin-left: 6.5em;
+    }
+
+    .main_container .card .lastcard .human-icon .human2 {
+        display: none;
+    }
+
+
+    .table-filter .datahidingbtn {
+        margin-left: 14rem;
+    }
+
+    .table-filter {
+        width: 100%;
+        margin-left: 0px;
+        height: 120px;
+    }
+
+    .table-filter .filters input.searchbox1 {
+        margin-left: 15px;
+        padding-left: 35px;
+        padding-right: 20px !important;
+        background-position: 5px 3px !important;
+    }
+
+    .table-filter .filters input.searchbox2 {
+        margin-left: 20px;
+        width: 110px;
+        border: none;
+    }
+
+    .table-filter .filters i.sortbtn {
+        margin-left: 3em;
+        margin-top: 2em;
+        margin-right: 3em;
+
+    }
+
+    .table-filter .filters .filtericon {
+        margin-left: 2em;
+    }
+
+    .table-filter .filters i.iconbtn {
+        margin-right: 2em;
+    }
+
+    .table-filter .filters button.actionbtn {
+        padding: 0px 20px;
+        margin-top: -5px;
+
+    }
+
+    .table-filter .filters .actionbtn i.downbtnn {
+        margin-left: 20px;
+    }
+
+    .tablecontainer {
+        overflow-x: scroll;
+        max-width: 100%;
+    }
+
+    .tablecontainer .datatable {
+        width: 280%;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    .mainbody {
+        overflow: scroll !important;
+        width: 100% !important;
+    }
+
+    .wrapper .top_navbar .top_menu {
+        box-shadow: 4px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .wrapper .sidebar {
+        left: -70px;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .wrapper.collapse .sidebar {
+        width: 40% !important;
+        left: 0px;
+        position: absolute;
+    }
+
+    .wrapper .sidebar ul li a {
+        padding: 15px !important;
+    }
+
+    .wrapper.collapse .sidebar ul li a {
+        padding: 15px;
+    }
+
+    .wrapper .sidebar ul li a span.icon {
+        font-size: 22px !important;
+    }
+
+    .wrapper .sidebar ul li a span.title {
+        font-size: 20px !important;
+    }
+
+    .wrapper.collapse .sidebar ul li a span.icon {
+        padding-left: 9.5px;
+        font-size: 22px !important;
+    }
+
+
+    .wrapper.collapse .sidebar ul li a span.title {
+        font-size: 20px !important;
+    }
+
+
+    .container123 .menu-item {
+        height: 65px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .container123 .menu-item h4 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .container123 .menu-item button i {
+        padding-right: 8px;
+    }
+
+    .container123 .menu-item .submenubtn {
+        font-size: 8px;
+        width: 85px;
+        margin-left: 70%;
+    }
+
+    .main_container {
+        width: 100% !important;
+        margin: 0px;
+    }
+
+    .container123 .main_container .containerrow {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container123 .main_container .containerrow .ordercard1 {
+        padding-right: 15px !important;
+        margin-top: 15px;
+    }
+
+    .main_container .cardfordata .rightcards {
+        padding: 25px;
+        padding-left: 30px;
+    }
+
+    .main_container .cardfordata .leftcards {
+        padding: 32px;
+        padding-left: 30px;
+        height: 205px;
+    }
+
+    .main_container .card .card-body .mainheader .sideimg .sideimg1 {
+        margin-left: 8em;
+    }
+
+    .main_container .card .card-body .mainheader .sideimg .sideimg2 {
+        margin-left: 5.7em;
+    }
+
+    .container123 .main_container .containerrow .ordercard1 .cardfordata12 {
+        margin-top: 15px !important;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row {
+        padding: 0px;
+        margin: 0px -5px;
+
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row .productcard11 {
+        margin-top: 15px !important;
+        padding-left: 0% !important;
+    }
+
+
+    .container123 .main_container .containerrow .productcard1 .row .cardfordata {
+        height: 196px !important;
+    }
+
+    .main_container .card .card-body .dataoncard .checkdiv1 {
+        margin-left: 4em;
+    }
+
+
+    .main_container .card .card-body .dataoncard .downtxt1 {
+        margin-left: 8em;
+    }
+
+
+    /*Circle-1*/
+    .main_container .card .card-body .datacrcls .imgbox .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .row .productcard12 {
+        margin-top: 15px;
+        padding-right: 5px !important;
+
+    }
+
+    /*Circle-2*/
+    .main_container .card .card-body .datacrcls .imgbox1 .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .main_container .card .card-body .datacrcls {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 {
+        margin-top: 1em;
+    }
+
+    .main_container .card .card-body .colrcrcls {
+        margin-left: 5px;
+    }
+
+
+    .main_container .card .card-body .datacrcls .rings {
+        margin-top: 0.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .rings1 {
+
+        margin-top: 0.5em;
+        margin-left: 15px;
+    }
+
+    .main_container .card .card-body .datacrcls .downtxt {
+        margin-left: 2.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .downtxt1 {
+        margin-left: 3.5em;
+    }
+
+
+    .main_container .card .card-body .datacrcls h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .container123 .main_container .containerrow .productcard1 .productcard13 {
+        margin-top: 15px !important;
+        display: none;
+    }
+
+    .container123 .productcard131 {
+        display: contents !important;
+    }
+
+    .container123 .productcard131 .card {
+        box-shadow: 1px 1px 5px rgba(56, 56, 56, 0.5);
+    }
+
+
+    .container123 .productcard131 .card .lastcard .rightside-hdr {
+        margin-top: -0px;
+    }
+
+    .container123 .productcard131 .card .lastcard .leftside-hdr {
+        margin-left: 67%;
+    }
+
+
+
+    .container123 .productcard131 .card .lastcard .leftside-hdr h6 {
+        padding: 0 10px;
+    }
+
+
+    .container123 .productcard131 .card .lastcard .human-icon {
+        margin-left: 9em;
+        margin-top: -4em;
+        margin-bottom: 1em;
+    }
+
+    .container123 .productcard131 .card .lastcard .human-icon .human1 {
+        color: gold;
+    }
+
+    .container123 .productcard131 .card .lastcard .human-icon .human3 {
+        color: gray;
+    }
+
+    .table-filter .datahidingbtn {
+        margin-left: 37rem;
+    }
+
+    .table-filter {
+        width: 100%;
+        margin-left: 0px;
+        height: 70px;
+    }
+
+    .table-filter .filters input.searchbox1 {
+        margin-left: 25px;
+        padding-right: 0px;
+    }
+
+    .table-filter .filters input.searchbox2 {
+        margin-left: 25px;
+    }
+
+    .table-filter .filters i.sortbtn {
+        margin-left: 9em;
+        margin-right: 15px;
+
+    }
+
+    .table-filter .filters i.iconbtn {
+        margin: 0px 20px;
+    }
+
+    .tablecontainer {
+        overflow-x: scroll;
+        max-width: 100%;
+    }
+
+    .tablecontainer .datatable {
+        width: 260%;
+    }
+
+}
+
+
+@media (min-width:1024px) and (max-width:1199px) {
+
+    .main_container {
+        margin-top: 20px;
+        margin-right: 25px !important;
+    }
+
+    .container123 .main_container .containerrow {
+        margin-left: 25px;
+    }
+
+
+    /*Circle-1*/
+    .main_container .card .card-body .datacrcls .imgbox .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+
+    /*Circle-2*/
+    .main_container .card .card-body .datacrcls .imgbox1 .img1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 .img2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .main_container .card .card-body .datacrcls {
+        margin-top: 1em;
+        margin-left: -15px;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox {
+        margin-top: 2.5em;
+    }
+
+    .main_container .card .card-body .datacrcls .imgbox1 {
+        margin-top: 2.5em;
+    }
+
+
+    .container123 .menu-item .submenubtn {
+        font-size: 11px;
+        width: 100px;
+        margin-left: 75%;
+    }
+
+    .table-filter .datahidingbtn {
+        margin-left: 49rem;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1280px) {
+
+    .table-filter .datahidingbtn {
+        margin-left: 79em !important;
+    }
+
+    .table-filter .filters i.sortbtn {
+        margin-left: 36em;
+    }
+}

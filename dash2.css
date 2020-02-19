@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Ubuntu|Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.wrapper .top_navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.wrapper .top_navbar .hamburger {
+    width: 70px;
+    height: 100%;
+    background: white;
+    padding: 19px 22px;
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+}
+
+/*Menu Button*/
+.wrapper .top_navbar .hamburger .one {
+    width: 20px;
+    height: 4px;
+    background: #d12627;
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+.wrapper .top_navbar .hamburger .two {
+    width: 15px;
+    height: 4px;
+    background: #d12627;
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+.wrapper .top_navbar .hamburger .three {
+    width: 18px;
+    height: 4px;
+    background: #d12627;
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+.wrapper .top_navbar .top_menu {
+    width: calc(100% - 70px);
+    height: 100%;
+    background: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 1;
+    box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper .top_navbar .top_menu .company {
+    align-items: center;
+    display: inline-flex;
+    padding-left: 45%;
+}
+
+.wrapper .top_navbar .top_menu .logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+.wrapper .top_navbar .top_menu ul {
+    display: flex;
+}
+
+.wrapper .top_navbar .top_menu .user-data {
+    display: inline-flex;
+    align-items: center;
+}
+
+.wrapper .top_navbar .top_menu .user-data a {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.wrapper .top_navbar .top_menu .user-data a .username {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+
+
+.wrapper .top_navbar .top_menu .user-data a .fa-cog {
+    font-size: 1em;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #354141;
+}
+
+.wrapper .top_navbar .top_menu .user-data a .fa-cog:hover {
+    background: red;
+    color: white;
+    border-radius: 50%;
+}
+
+.wrapper .top_navbar .top_menu .user-data .user-img {
+    display: inline-block;
+}
+
+.wrapper .top_navbar .top_menu .user-data .user-img img {
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.wrapper .top_navbar .top_menu .user-data a span {
+    padding-right: 15px;
+}
+
+.wrapper .top_navbar .top_menu .user-data a {
+    color: #354141;
+
+}
+
+.wrapper .sidebar {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background: white;
+    width: 70px;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .sidebar ul li a {
+    display: flex;
+    padding: 18px;
+    position: relative;
+    align-items: center;
+    white-space: nowrap;
+    color: #354141;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .sidebar ul li a span.icon {
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    padding-left: 7px;
+    margin: 0px;
+}
+
+.wrapper .sidebar ul li a span.title {
+    display: none;
+    align-items: center;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+    background: red;
+    color: white
+}
+
+.wrapper.collapse .sidebar {
+    width: 200px;
+    z-index: 1;
+    transition: 0.3s;
+    box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.9);
+}
+
+.wrapper.collapse .sidebar ul li a {
+    text-align: center;
+}
+
+.wrapper.collapse .sidebar ul li a span.title {
+    display: inline-flex;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.mainbody {
+    background: #f6f6f6;
+    overflow: hidden;
+}
+
+/*Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+/*Mani Container*/
+.container123 {
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+.container123 .menu-item {
+    width: calc(100% - 70px);
+    height: 62px;
+    margin-left: 70px;
+    padding-left: 15px;
+    display: flex;
+    position: relative;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    background: white;
+}
+
+.container123 .menu-item h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*body container*/
+
+.container123 .main_container1 {
+    width: calc(100% - 70px);
+    margin-left: 31px;
+    margin-top: 1.5em;
+    position: relative;
+}
+
+.container123 .main_container1 .main_container1row .coldivison {
+    margin-left: 2.6em;
+    padding: 0px;
+}
+
+.container123 .main_container1 .detailsoncard {
+    width: 15.5rem;
+    height: 110px;
+    padding: 15px 15px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container123 .main_container1 .detailsoncard .heading_part {
+    margin-top: 10px;
+}
+
+
+
+/*side inages card 1 and card 2*/
+
+.container123 .main_container1 .detailsoncard .card-heading .sideimg1 img {
+    margin-left: 2.5em;
+    margin-top: 10px;
+}
+
+.container123 .main_container1 .detailsoncard .card-heading .sideimg2 img {
+    margin-left: 0.5em;
+    margin-top: 10px;
+}
+
+/*circles*/
+/*circle-1*/
+.container123 .main_container1 .detailsoncard .circleimg1 .img1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #d12627;
+    border-left-color: darkgrey;
+    transform: rotate(45deg);
+}
+
+.container123 .main_container1 .detailsoncard .circleimg1 {
+    margin-top: 5px;
+    margin-left: 3.5em;
+}
+
+.container123 .main_container1 .detailsoncard .circleimg1 .img2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #354141;
+    margin: 3px;
+    border-left-color: darkgrey;
+    border-bottom-color: darkgrey;
+    transform: rotate(55deg);
+}
+
+/*circle-2*/
+.container123 .main_container1 .detailsoncard .circleimg2 .img1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #d12627;
+    border-left-color: darkgrey;
+    border-bottom-color: darkgrey;
+    transform: rotate(55deg);
+}
+
+.container123 .main_container1 .detailsoncard .circleimg2 {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container123 .main_container1 .detailsoncard .circleimg2 .img2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #354141;
+    margin: 3px;
+    border-left-color: darkgrey;
+    transform: rotate(-45deg);
+}
+
+/*last cardhuman icons*/
+.container123 .main_container1 .detailsoncard .card-heading .humanicon {
+    margin-top: 21px;
+    margin-left: 2em;
+}
+
+.container123 .main_container1 .detailsoncard .card-heading .humanicon i {
+    font-size: 2em;
+    color: darkgrey;
+}
+
+
+/*hide button*/
+
+.container123 .datahidingbtn {
+    margin-left: 69rem;
+    margin-top: -2em;
+    border-radius: 25px;
+    padding: 0px 20px;
+    background: #fce1b4;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: none;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container123 .datahidingbtn:focus {
+    box-shadow: none;
+}
+
+.container123 .datahidingbtn i.downbtn {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.container123 tbody tr td div.activebtn {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container123 tbody tr td div.activebtn1 {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #7ace4d;
+}
+
+/*Table Filters*/
+.container123 .table-filter {
+    width: calc(100% - 70px);
+    margin-left: 70px;
+    height: 70px;
+    background: #fbfbfb;
+    margin-top: 1.5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container123 .table-filter .filters input.searchbox1 {
+    background-image: url(images/searchicon.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    background-size: 1rem;
+    border: none;
+    padding: 0px 30px;
+    margin-left: 60px;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+    background-color: #fbfbfb;
+
+}
+
+.container123 .table-filter .filters input.searchbox1:focus {
+    outline: none;
+}
+
+.container123 .table-filter .filters input.searchbox2 {
+    background-image: url(images/arrowdown.png);
+    background-repeat: no-repeat;
+    background-position: 95px 4px;
+    background-size: 1rem;
+    border: none;
+    opacity: 0.5;
+    background-color: #fbfbfb;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    width: 135px;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.container123 .table-filter .filters input.searchbox2:focus {
+    outline: none;
+}
+
+.container123 .table-filter .filters .custchkbx {
+    margin-left: 33em;
+    border-right: 1px solid rgb(199, 198, 198);
+    padding-right: 1em;
+    color: darkgray;
+}
+
+.container123 .table-filter .filters i.sortbtn {
+    margin-left: 1em;
+    margin-right: 15px;
+    color: darkgray;
+
+}
+
+.container123 .table-filter .filters i.iconbtn {
+    margin-right: 5px;
+    color: #d12627;
+
+}
+
+.container123 .table-filter .filters button.actionbtn {
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 0px 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container123 .table-filter .filters .actionbtn i.downbtnn {
+    padding-left: 15px;
+    color: darkgray;
+}
+
+
+/*cards data*/
+.container123 .cardcollage {
+    margin-top: 0em;
+}
+
+.container123 .cardcollage .cardcollagerow {
+    width: calc(100% - 70px);
+    margin-left: 70px;
+    margin-right: 15px;
+
+}
+
+.container123 .cardcollage .cardcollagerow .coldivision {
+    padding: 0;
+    margin: 0;
+}
+
+.container123 .cardcollage .collagecard {
+    border-radius: 5px;
+    padding: 5px 2px;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container123 .cardcollage .collagecard .shartcard .checknactivebtns .circle2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 2px;
+}
+
+.container123 .cardcollage .collagecard .shartcard .checknactivebtns .circle1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #abadad;
+    opacity: 0.6;
+}
+
+.container123 .shartcard .checknactivebtns {
+    margin-left: 13.5em;
+}
+
+.container123 .shartcard .checknactivebtns .custchkbx {
+    margin-top: -4px;
+    margin-left: 15px;
+}
+
+.container123 .shartcard thead tr td {
+    padding: 1px;
+}
+
+.container123 .shartcard tbody tr td {
+    padding: 10px;
+}
+
+.container123 .shartcard tr td .fa-user {
+    color: gold;
+}
+
+.container123 .shartcard tr td h5 {
+    margin-top: 8px;
+}
+
+.container123 .cardcollage .collagecard .shartcard tr td span {
+    color: rgb(199, 198, 198);
+
+}
+
+/*modal view when click*/
+
+.container123 .modalcard-body .shartcard .tablecarddata thead td .circle2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 2px;
+}
+
+.container123 .modalcard-body .shartcard .tablecarddata thead td .circle1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #354141;
+    opacity: 0.6;
+}
+
+
+.container123 .modalcard-body .shartcard {
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container123 .modalcard-body .shartcard .tablecarddata tr td span {
+    color: rgb(199, 198, 198);
+    font-size: 11px;
+}
+
+
+.container123 .modalcard-body .shartcard .tablecarddata tbody tr td h4 {
+    margin-top: 5px;
+}
+
+
+.container123 .modalcard-body .shartcard .tablecarddata tr td i.fa-edit {
+    padding-left: 90px;
+}

@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dash Board2</title>
+  <link rel="stylesheet" href="dash2.css">
+  <link rel="stylesheet" href="media1.css">
+  <!--FontAwsome-->
+  <script src="https://kit.fontawesome.com/28010aae40.js" crossorigin="anonymous"></script>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!--js code for collapse-->
+  <script src="collapse.js"></script>
+
+</head>
+
+<body class="mainbody">
+
+  <div class="wrapper show">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+
+      <div class="top_menu">
+        <div class="company text-center">
+          <div class="logo d-inline-flex"><span style="color: red;">e</span>WIZ</div>
+        </div>
+
+        <div class="user-data">
+          <a href="#"><i class="fas fa-cog"></i></a>
+          <a href="#" class="d-flex">
+            <div class="user-img">
+              <img src="images/passport.jpg" width="40px" height="40px" alt="">
+            </div>
+            <div class="username">
+              <b>I'm</b>
+              <span style="color:#d12627;">JustiN</span>
+            </div>
+          </a>
+          <a href="" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action
+            </a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <ul>
+          <li><a href="dashboard2.html" class="active">
+              <span class="icon"><i class="fas fa-chart-pie"></i></span>
+              <span class="title">Business Chart</span></a></li>
+          <li><a href="#">
+              <span class="icon"><i class="fas fa-paint-brush"></i></span>
+              <span class="title">Scheduled</span>
+            </a></li>
+          <li><a href="#">
+              <span class="icon"><i class="fas fa-th-list"></i></span>
+              <span class="title">View Data</span>
+            </a></li>
+          <li><a href="#">
+              <span class="icon"><i class="fas fa-users"></i></span>
+              <span class="title">Our Clients</span></a></li>
+          <li><a href="index.html">
+              <span class="icon"><i class="fas fa-user"></i></span>
+              <span class="title">My Customers</span>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Menu Bar End-->
+  <!--Main-->
+  <div class="container123 p-0 m-0">
+    <div class="menu-item">
+      <h3>My Customers</h3>
+    </div>
+    <div class="container-fluid main_container1">
+      <div class="row main_container1row p-0 m-0">
+        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-12 col-xs-12 coldivison">
+          <div class="card detailsoncard">
+            <div class="card-heading d-inline-flex">
+              <div class="heading_part">
+                <h6 class="card-title">Orders</h6>
+                <h3 class="card-subtitle">2,600</h3>
+              </div>
+              <div class="sideimg1">
+                <img src="images/inmg1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-12 col-xs-12 coldivison">
+          <div class="card detailsoncard secondcarddetails ">
+            <div class="card-heading d-inline-flex">
+              <div class="heading_part">
+                <h6 class="card-title">Sample Orders</h6>
+                <h3 class="card-subtitle">3,890</h3>
+              </div>
+              <div class="sideimg2">
+                <img src="images/inmg2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-12 col-xs-12 coldivison">
+          <div class="card detailsoncard d-inline-flex">
+            <div class="card-heading d-inline-flex">
+              <div class="heading_part">
+                <h6 class="card-title">Products</h6>
+                <h3 class="card-subtitle">68,903</h3>
+              </div>
+              <div class="circleimg1">
+                <div class="img1">
+                  <div class="img2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-12 col-xs-12 coldivison">
+          <div class="card detailsoncard fourtcarddetails">
+            <div class="card-heading d-inline-flex">
+              <div class="heading_part">
+                <h6 class="card-title">Shipping Products</h6>
+                <h3 class="card-subtitle">80,368</h3>
+              </div>
+              <div class="circleimg2">
+                <div class="img1">
+                  <div class="img2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-xs-12 coldivison">
+          <div class="card detailsoncard lastcarddetails">
+            <div class="card-heading d-inline-flex">
+              <div class="heading_part">
+                <h6 class="card-title">Customers</h6>
+                <h3 class="card-subtitle">23,689</h3>
+              </div>
+              <div class="humanicon">
+                <i class="fa fa-male" style="color: gold;"></i>
+                <i class="fa fa-male"></i>
+                <i class="fa fa-male"></i>
+                <i class="fa fa-male"></i>
+                <i class="fa fa-male"></i>
+                <i class="fa fa-male"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="table-filter">
+      <div class="filters">
+        <button type="button" class="btn datahidingbtn" data-toggle="collapse" data-target="#satya">
+          <i class="fas fa-chevron-down downbtn"></i>
+          Show Statistics
+        </button>
+        <br>
+
+        <input type="text" placeholder="Search Keywords" class="searchbox1">
+
+        <input type="text" placeholder="By Customer" class="searchbox2">
+
+        <i class="fas fa-filter filterbtn"></i>
+
+        <div class="custom-control custom-checkbox custchkbx d-inline-flex">
+          <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck">
+          <label class="custom-control-label" for="customCheck"> <span>Select All</span></label>
+        </div>
+        <i class="fas fa-sort-amount-up-alt sortbtn"></i>
+        <i class="fas fa-th-large iconbtn"></i>
+
+        <button class="btn actionbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Action<i class="fas fa-angle-down downbtnn"></i>
+        </button>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="">Active</a>
+          <a class="dropdown-item" href="">Inactive</a>
+          <a class="dropdown-item" href="">Delete</a>
+        </div>
+      </div>
+    </div>
+    <!--Card Collage-->
+    <!--Container card1-->
+
+    <div class="container-fluid cardcollage d-inline-flex p-0">
+      <div class="row cardcollagerow">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <!--card-1-->
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya1">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Janardhan Sathish</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>janardhnasathish@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!--card-2-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya2" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Justin Janardhan</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>justinjanardhan@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--card-3-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck3">
+                      <label class="custom-control-label" for="customCheck3"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya3" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Sathish Kumar</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>sathishkumar@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--card-4-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck4">
+                      <label class="custom-control-label" for="customCheck4"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya4" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>N J Janardhan</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>njj123123@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Container card2-->
+    <div class="container-fluid cardcollage d-inline-flex p-0">
+      <div class="row cardcollagerow">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12  col-xs-12 coldivision">
+          <!--card-5-->
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya1">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Janardhan Sathish</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>janardhnasathish@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!--card-6-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya2" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Justin Janardhan</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>justinjanardhan@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--card-7-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck3">
+                      <label class="custom-control-label" for="customCheck3"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya3" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Sathish Kumar</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>sathishkumar@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--card-8-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck4">
+                      <label class="custom-control-label" for="customCheck4"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya4" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>N J Janardhan</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>njj123123@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Container card3-->
+    <div class="container-fluid cardcollage d-inline-flex p-0">
+      <div class="row cardcollagerow">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <!--card-9-->
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya1">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Janardhan Sathish</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>janardhnasathish@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!--card-10-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya2" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Justin Janardhan</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>justinjanardhan@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--card-11-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck3">
+                      <label class="custom-control-label" for="customCheck3"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya3" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>Sathish Kumar</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>sathishkumar@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--card-12-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 coldivision">
+          <div class="card collagecard">
+            <table class="shartcard">
+              <thead>
+                <td colspan="3">
+                  <div class="checknactivebtns d-inline-flex">
+                    <div class="circle1">
+                      <div class="circle2"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox custchkbx">
+                      <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck4">
+                      <label class="custom-control-label" for="customCheck4"></label>
+                    </div>
+                  </div>
+                </td>
+              </thead>
+              <tbody data-toggle="modal" data-target="#satya4" style="width: 20rem;">
+                <tr>
+                  <td><i class="fas fa-user"></i></td>
+                  <td>
+                    <h5>N J Janardhan</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-envelope"></i></td>
+                  <td><span>njj123123@gamil.com</span></td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-briefcase"></i></td>
+                  <td> <span>JUSt-In Pvt Ltd</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--datacard-1-->
+    <div class="modal fade bd-example-modal-sm modalcard-body" tabindex="-1" role="dialog" id="satya1"
+      aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content shartcard">
+          <table class="tablecarddata">
+            <thead>
+              <td colspan="3">
+                <div class="checknactivebtns d-inline-flex">
+                  <div class="circle1">
+                    <div class="circle2"></div>
+                  </div>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck11">
+                    <label class="custom-control-label" for="customCheck11"></label>
+                  </div>
+                </div>
+              </td>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-user"></i></td>
+                <td>
+                  <h4>Janardhan Sathish</h4>
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-envelope"></i></td>
+                <td class="mailid">sathishkumar@gamil.com</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-briefcase"></i></td>
+                <td>JOZBIZ Pvt Ltd</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone-alt"></i></td>
+                <td><span>PHONE NO.</span> <br> +91-9666698563 </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-calendar-alt"></i></td>
+                <td><span>REGISTER DATE</span> <br> 24-12-2016</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-flag"></i></td>
+                <td><span>COUNTRY</span> <br> US</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-user-tie"></i></td>
+                <td><span>GROUP</span> <br> Wolf Group <i class="far fa-edit"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--datacard-2-->
+    <div class="modal fade bd-example-modal-sm modalcard-body" tabindex="-1" role="dialog" id="satya2"
+      aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content shartcard">
+          <table class="tablecarddata">
+            <thead>
+              <td colspan="3">
+                <div class="checknactivebtns d-inline-flex">
+                  <div class="circle1">
+                    <div class="circle2"></div>
+                  </div>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck11">
+                    <label class="custom-control-label" for="customCheck11"></label>
+                  </div>
+                </div>
+              </td>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-user"></i></td>
+                <td>
+                  <h4>Janardhan Sathish</h4>
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-envelope"></i></td>
+                <td class="mailid">sathishkumar@gamil.com</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-briefcase"></i></td>
+                <td>JOZBIZ Pvt Ltd</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone-alt"></i></td>
+                <td><span>PHONE NO.</span> <br> +91-9666698563 </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-calendar-alt"></i></td>
+                <td><span>REGISTER DATE</span> <br> 24-12-2016</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-flag"></i></td>
+                <td><span>COUNTRY</span> <br> US</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-user-tie"></i></td>
+                <td><span>GROUP</span> <br> Wolf Group <i class="far fa-edit"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--datacard-3-->
+    <div class="modal fade bd-example-modal-sm modalcard-body" tabindex="-1" role="dialog" id="satya3"
+      aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content shartcard">
+          <table class="tablecarddata">
+            <thead>
+              <td colspan="3">
+                <div class="checknactivebtns d-inline-flex">
+                  <div class="circle1">
+                    <div class="circle2"></div>
+                  </div>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck11">
+                    <label class="custom-control-label" for="customCheck11"></label>
+                  </div>
+                </div>
+              </td>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-user"></i></td>
+                <td>
+                  <h4>Janardhan Sathish</h4>
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-envelope"></i></td>
+                <td class="mailid">sathishkumar@gamil.com</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-briefcase"></i></td>
+                <td>JOZBIZ Pvt Ltd</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone-alt"></i></td>
+                <td><span>PHONE NO.</span> <br> +91-9666698563 </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-calendar-alt"></i></td>
+                <td><span>REGISTER DATE</span> <br> 24-12-2016</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-flag"></i></td>
+                <td><span>COUNTRY</span> <br> US</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-user-tie"></i></td>
+                <td><span>GROUP</span> <br> Wolf Group <i class="far fa-edit"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--datacard-4-->
+    <div class="modal fade bd-example-modal-sm modalcard-body" tabindex="-1" role="dialog" id="satya4"
+      aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content shartcard">
+          <table class="tablecarddata">
+            <thead>
+              <td colspan="3">
+                <div class="checknactivebtns d-inline-flex">
+                  <div class="circle1">
+                    <div class="circle2"></div>
+                  </div>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck11">
+                    <label class="custom-control-label" for="customCheck11"></label>
+                  </div>
+                </div>
+              </td>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-user"></i></td>
+                <td>
+                  <h4>Janardhan Sathish</h4>
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-envelope"></i></td>
+                <td class="mailid">sathishkumar@gamil.com</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-briefcase"></i></td>
+                <td>JOZBIZ Pvt Ltd</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone-alt"></i></td>
+                <td><span>PHONE NO.</span> <br> +91-9666698563 </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-calendar-alt"></i></td>
+                <td><span>REGISTER DATE</span> <br> 24-12-2016</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-flag"></i></td>
+                <td><span>COUNTRY</span> <br> US</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-user-tie"></i></td>
+                <td><span>GROUP</span> <br> Wolf Group <i class="far fa-edit"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+      </script>
+    </footer>
+  </div>
+</body>
+
+</html>
