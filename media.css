@@ -70,7 +70,8 @@
     }
 
     .container123 .menu-item .submenubtn {
-        font-size: 8px;
+        font-size: 10px;
+        margin-right: 10px;
     }
 
     .container123 .menu-item button i {
