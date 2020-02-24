@@ -1,15 +1,19 @@
-/*X-Small Devices*/
-
-@media (min-width:1px) and (max-width:410px) {
-
-
-
-    .wrapper .top_navbar .top_menu {
-        box-shadow: 4px 0px 3px 0px rgba(0, 0, 0, 0.3);
+/**Media Queries**/
+@media (min-width:1px) and (max-width:767px) {
+    .mainbody {
+        width: 100% !important;
     }
 
-    .wrapper .top_navbar .top_menu .company {
-        padding-left: 0px !important;
+    h2 {
+        font-size: 22px !important;
+    }
+
+    h5 {
+        font-size: 19px !important;
+    }
+
+    .wrapper .top_navbar .top_menu .logo {
+        margin-left: 5px !important;
     }
 
     .wrapper .top_navbar .top_menu .user-data a .fa-cog {
@@ -19,7 +23,6 @@
     .wrapper .top_navbar .top_menu .user-data .username {
         display: none;
     }
-
 
     .wrapper .top_navbar .top_menu .user-data .user-img img {
         margin-right: 10px;
@@ -54,384 +57,160 @@
         font-size: 14px !important;
     }
 
-    .mainbody {
-        overflow: scroll !important;
-    }
-
-    .container123 .menu-item {
-        height: 53px;
-        width: 100% !important;
+    /*Main*/
+    .container123 {
+        width: 100%;
         margin-left: 0px;
-        margin-bottom: 15px;
     }
 
-    .container123 .menu-item h3 {
+
+    .container123 .menu-item h4 {
         font-size: 17px;
+        margin-bottom: 0;
         margin-left: 10px;
     }
 
-
-    .container123 .main_container1 .main_container1row {
-        margin: -15px !important;
-        padding: 0px !important;
-    }
-
-    .container123 .main_container1 {
-        width: 100% !important;
-        margin: 0px;
-    }
-
-    .container123 .main_container1 .main_container1row .coldivison {
-        margin-left: 15px;
-        margin-right: 15px;
+    .container123 .container1 {
         margin-top: 15px;
     }
 
-    .container123 .main_container1 .detailsoncard {
-        width: 100%;
-        height: 100%;
-        padding-top: 15px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 20px;
+    .container123 .section-1 .container1 .container1row {
+        margin: 0px !important;
+        padding: 0px;
     }
 
-    .container123 .main_container1 .detailsoncard .heading_part {
-        margin-left: 1.5em;
+    .container1 .container1row .coldivison {
+        margin: 0px;
     }
 
-    .container123 .main_container1 .detailsoncard .card-heading .sideimg1 img {
-        margin-left: 6em;
+    .container123 .section-1 .container1 .card {
+        margin: 0px 0px 15px 0px !important;
+        width: 100% !important;
     }
 
-    .container123 .main_container1 .detailsoncard .card-heading .sideimg2 img {
-        margin-left: 3em;
+    .container123 .section-1 .container1 .card .heading_part {
+        margin: auto 15px;
     }
 
-    .container123 .main_container1 .detailsoncard .circleimg1 {
-        margin-left: 6em;
+    .container123 .section-1 .container1 .card .sideimg1 {
+        margin: auto 15px;
     }
 
-    .container123 .main_container1 .detailsoncard .circleimg2 {
-        margin-left: 3em;
+    .container123 .section-1 .container1 .card .sideimg2 {
+        margin: auto 15px;
     }
 
-    .container123 .main_container1 .detailsoncard .card-heading .humanicon {
-        margin-left: 5em;
+    .container123 .section-1 .container1 .card .circleimg1 {
+        margin: auto 15px;
+    }
+
+    .container123 .section-1 .container1 .card .circleimg2 {
+        margin: auto 15px;
+    }
+
+    .container123 .section-1 .container1 .card .humanicon {
+        margin: auto 15px;
+    }
+
+    .container123 .section-1 .container1 .card .humanicon i {
+        font-size: 35px;
     }
 
 
-    .table-filter .datahidingbtn {
-        margin-left: 13.5rem;
+    /*Filters*/
+
+    .section-2 .table-filter {
+        height: 150px;
     }
 
-    .container123 .table-filter {
-        width: 100%;
-        margin-left: 0px;
-        height: 120px;
-        margin-bottom: 15px;
-        margin-top: 30px;
+    .section-2 .table-filter input.searchbox1 {
+        margin: 0px;
+        width: 160px;
     }
 
-    .container123 .table-filter .filters input.searchbox1 {
-        padding: 0px 30px;
-        margin-left: 1em
+    .section-2 .table-filter input.searchbox2 {
+        border: none;
+        margin: 0px;
     }
 
-    .container123 .table-filter .filters input.searchbox2 {
-        margin-left: -3.9em;
+    .section-2 .table-filter .filters1 {
+        display: initial !important;
     }
 
-    .container123 .table-filter .filters .custchkbx {
-        margin-left: 2em;
-
+    .section-2 .table-filter .rightfilters {
+        display: flex;
+        justify-content: space-around;
+        margin: 15px;
     }
 
-    .container123 .table-filter .filters i.filterbtn {
-        margin-left: 0.3em;
-    }
-
-    .container123 .table-filter .filters i.sortbtn {
-        margin-left: 1em;
-        margin-top: 2em;
-        margin-right: 1em;
-
-    }
-
-    .container123 .table-filter .filters i.iconbtn {
-        margin-right: 1em;
-    }
-
-    .container123 .table-filter .filters button.actionbtn {
-        padding: 0px 15px !important;
-        margin-top: -5px;
+    .section-2 .table-filter .leftfilters {
+        display: flex;
+        justify-content: space-around;
+        margin: 1.5em 10px 15px 15px;
 
     }
 
-    .table-filter .filters .actionbtn i.downbtnn {
-        margin-left: 20px;
+    .table-filter .leftfilters button.actionbtn {
+        border: none;
     }
 
+
+    /**/
     .container123 .cardcollage {
-        margin-top: 0px;
+        margin: 0px;
     }
 
-    .container123 .cardcollage .cardcollagerow {
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-
-    .container123 .modalcard-body .shartcard {
-        width: 90% !important;
-        margin-left: 16.5px !important;
-        padding: 15px;
+    .container123 .cardcollage .cardcollagerow .coldivision {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .container123 .cardcollage .collagecard {
-        padding-bottom: 15px;
-        margin-right: 15px;
-        padding-left: 20px;
-    }
-
-    .container123 .cardcollage .collagecard .shartcard .checknactivebtns {
-        margin-left: 16em;
+        margin-top: 15px;
     }
 }
 
+/*Medium Devices*/
 
-/*small Devices*/
-@media (min-width:411px) and (max-width:767px) {
-
-    .wrapper .top_navbar .top_menu {
-        box-shadow: 4px 0px 3px 0px rgba(0, 0, 0, 0.3);
-    }
-
-    .wrapper .top_navbar .top_menu .company {
-        padding-left: 0px !important;
-    }
-
-    .wrapper .top_navbar .top_menu .user-data a .fa-cog {
-        display: none;
-    }
-
-    .wrapper .top_navbar .top_menu .user-data .username {
-        display: none;
-    }
-
-
-    .wrapper .top_navbar .top_menu .user-data .user-img img {
-        margin-right: 10px;
-    }
-
-    .wrapper .sidebar {
-        left: -70px;
-        transition: 0.3s;
-        z-index: 1;
-    }
+@media (min-width:768px) and (max-width:991px) {
 
     .wrapper.collapse .sidebar {
-        width: 60% !important;
+        width: 30% !important;
         left: 0px;
         position: absolute;
     }
 
-    .wrapper .sidebar ul li a {
-        padding: 13.5px;
+    .container1 .container1row {
+        padding-left: 3px;
     }
 
-    .wrapper.collapse .sidebar ul li a {
-        padding: 13.5px;
-    }
-
-    .wrapper.collapse .sidebar ul li a span.icon {
-        padding-left: 9.5px;
-    }
-
-
-    .wrapper.collapse .sidebar ul li a span.title {
-        font-size: 14px !important;
-    }
-
-    .mainbody {
-        overflow: scroll !important;
-    }
-
-    .container123 .menu-item {
-        height: 53px;
-        width: 100% !important;
-        margin-left: 0px;
-        margin-bottom: 15px;
-    }
-
-    .container123 .menu-item h3 {
-        font-size: 17px;
-        margin-left: 10px;
-    }
-
-    .container123 .main_container1 {
-        width: 100% !important;
-        margin: 0px;
-    }
-
-    .container123 .main_container1 .main_container1row .coldivison {
-        margin: 15px;
-    }
-
-    .container123 .main_container1 .detailsoncard {
-        width: 100%;
-        height: 100%;
-        padding: 25px 0px;
-    }
-
-    .container123 .main_container1 .detailsoncard .heading_part {
-        margin-left: 2em;
-    }
-
-    .container123 .main_container1 .detailsoncard .card-heading .sideimg1 img {
-        margin-left: 6em;
-    }
-
-    .container123 .main_container1 .detailsoncard .card-heading .sideimg2 img {
-        margin-left: 3em;
-    }
-
-    .container123 .main_container1 .detailsoncard .circleimg1 {
-        margin-left: 6em;
-    }
-
-    .container123 .main_container1 .detailsoncard .circleimg2 {
-        margin-left: 3em;
-    }
-
-    .container123 .main_container1 .detailsoncard .card-heading .humanicon {
-        margin-left: 4.5em;
-    }
-
-    .container123 .table-filter {
-        width: 100% !important;
-        margin-left: 0px;
-    }
-
-    .container123 .table-filter .datahidingbtn {
-        margin-left: 15rem;
-    }
-
-    .container123 .table-filter {
-        width: 100%;
-        margin-left: 0px;
-        height: 120px;
-        margin-bottom: 15px;
-    }
-
-    .container123 .table-filter .filters input.searchbox1 {
-        padding: 0px 30px;
-        margin-left: 1.5em
-    }
-
-    .container123 .table-filter .filters input.searchbox2 {
-        margin-left: -2.5em;
-    }
-
-    .container123 .table-filter .filters .custchkbx {
-        margin-left: 2em;
-        padding: 0px 25px !important;
-
-    }
-
-    .container123 .table-filter .filters i.filterbtn {
-        margin-left: 0.5em;
-    }
-
-    .container123 .table-filter .filters i.sortbtn {
-        margin-left: 1em;
-        margin-top: 2em;
-        margin-right: 1em;
-
-    }
-
-    .container123 .table-filter .filters i.iconbtn {
-        margin-right: 1em;
-    }
-
-    .container123 .table-filter .filters button.actionbtn {
-        padding: 0px 20px !important;
-        margin-top: -5px;
-
-    }
-
-    .table-filter .filters .actionbtn i.downbtnn {
-        margin-left: 20px;
-    }
-
-    .container123 .cardcollage {
-        margin-top: 0px;
-    }
-
-    .container123 .cardcollage .cardcollagerow {
-        width: 100%;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .container123 .cardcollage .collagecard {
-        padding: 15px;
-        margin-right: 15px !important;
-    }
-
-    .container123 .modalcard-body .shartcard {
-        width: 80% !important;
-        margin-left: 37px !important;
-        padding: 15px;
-    }
-
-    .container123 .cardcollage .collagecard .shartcard .checknactivebtns {
-        margin-left: 15.5em;
-    }
-
-}
-
-/*Medium Devices*/
-@media (min-width:768px) and (max-width:991px) {
-    .container123 .main_container1 {
-        width: calc(100% - 70px);
-        margin-top: 5px;
-    }
-
-    .container123 .main_container1 .main_container1row {
-        width: calc(100% - 70px);
-        margin-left: 42px !important;
-    }
-
-    .container123 .main_container1 .main_container1row .coldivison {
+    .container123 .container1 .container1row .coldivison {
         margin: 0px;
         padding: 0px;
     }
 
-    .container123 .main_container1 .detailsoncard {
-        padding: 15px;
-        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-        margin-top: 10px;
+    .container123 .container1 .card3 {
+        margin-top: 15px;
     }
 
-    .container123 .main_container1 .secondcarddetails {
-        margin-left: 10px !important;
+    .container123 .container1 .secondcarddetails {
+        margin-left: -20px;
     }
 
-    .container123 .main_container1 .fourtcarddetails {
-        margin-left: 10px !important;
+    .container123 .container1 .fourtcarddetails {
+        margin-left: -20px;
+        margin-top: 15px;
 
     }
 
-    .container123 .main_container1 .lastcarddetails {
+    .container123 .container1 .lastcarddetails {
         width: 9em !important;
-        height: 230px !important;
-        margin-top: -14.4em;
+        height: 235px !important;
+        margin-top: -14.7em;
         margin-left: 32.2em;
     }
 
-    .container123 .main_container1 .lastcarddetails .heading_part {
+    .container123 .container1 .lastcarddetails .heading_part {
         margin-top: 30px;
         margin-left: 10px;
     }
@@ -440,111 +219,20 @@
         margin-left: -88px;
         margin-top: 7em;
     }
-
-
-    .container123 .table-filter .datahidingbtn {
-        margin-left: 33rem;
-    }
-
-
-
-    .container123 .table-filter .filters input.searchbox1 {
-        padding: 0px 25px;
-        margin-left: 1em
-    }
-
-    .container123 .table-filter .filters input.searchbox2 {
-        margin-left: -3.5em;
-    }
-
-    .container123 .table-filter .filters .custchkbx {
-        margin-left: 2em;
-        padding: 0px 25px !important;
-
-    }
-
-    .container123 .table-filter .filters i.filtericon {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-
-    .container123 .table-filter .filters i.sortbtn {
-        margin-left: 1em;
-        margin-right: 1em;
-
-    }
-
-    .container123 .table-filter .filters i.iconbtn {
-        margin-right: 0em;
-    }
-
-    .container123 .table-filter .filters button.actionbtn {
-        padding: 0px 20px !important;
-    }
-
-    .container123 .cardcollage {
-        margin-top: 0px;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-
-    }
-
-    .container123 .cardcollage .collagecard {
-        margin-right: 15px;
-        margin-top: 30px;
-    }
-
 }
 
-/*Large Devices*/
-@media (min-width:992px) and (max-width:1280px) {
+/*Large*/
+@media (min-width:1024px) and (max-width:1280px) {
 
-    .container123 .main_container1 {
-        width: calc(100% - 40px);
-        margin-left: 55px;
-        padding: 0px !important;
+    .container1 .container1row {
+        padding: 7px;
     }
 
-    .container123 .main_container1 .main_container1row {
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    .container123 .main_container1 .main_container1row .coldivison {
-        margin-left: 30px;
-        padding: 0px;
-    }
-
-    .container123 .main_container1 .detailsoncard {
+    .container123 .container1 .card {
         width: 14.5rem;
     }
 
-    .container123 .main_container1 .detailsoncard .circleimg1 {
-        margin-left: 3em;
+    .container1 .container1row .coldivison {
+        margin-right: 2.4em;
     }
-
-    .container123 .main_container1 .secondcarddetails .heading_part {
-        margin-top: 0px;
-    }
-
-    .container123 .main_container1 .fourtcarddetails .heading_part {
-        margin-top: 0px;
-    }
-
-    .container123 .main_container1 .detailsoncard .card-heading .humanicon i {
-        font-size: 1.7em;
-    }
-
-    .container123 .main_container1 .detailsoncard .card-heading .humanicon {
-        margin-top: 25px;
-    }
-
-    .container123 .table-filter .datahidingbtn {
-        margin-left: 65rem;
-    }
-
-    .container123 .table-filter .filters .custchkbx {
-        margin-left: 29em;
-    }
-
 }

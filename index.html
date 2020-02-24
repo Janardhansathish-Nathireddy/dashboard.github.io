@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>index</title>
-
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="media.css">
-
   <!--FontAwsome-->
   <script src="https://kit.fontawesome.com/28010aae40.js" crossorigin="anonymous"></script>
   <!--Bootstrap-->
@@ -18,10 +16,13 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <!--js code-->
   <script src="collapse.js">
+
   </script>
+
 </head>
 
 <body class="mainbody">
+
   <div class="wrapper show">
     <div class="top_navbar">
       <div class="hamburger">
@@ -31,10 +32,7 @@
       </div>
 
       <div class="top_menu">
-        <div class="company text-center">
-          <div class="logo d-inline-flex"><span style="color:#d12627;">e</span>WIZ</div>
-        </div>
-
+        <div class="logo"><span>e</span>WIZ</div>
         <div class="user-data">
           <a href="#"><i class="fas fa-cog"></i></a>
           <a href="#" class="d-flex">
@@ -43,7 +41,7 @@
             </div>
             <div class="username">
               <b>I'm</b>
-              <span style="color:#d12627;">JustiN</span>
+              <span>JustiN</span>
             </div>
 
           </a>
@@ -59,180 +57,281 @@
         </div>
       </div>
 
-      <div class="sidebar">
-        <ul>
-          <li><a href="dashboard2.html">
-              <span class="icon"><i class="fas fa-chart-pie"></i></span>
-              <span class="title">Business Chart</span></a></li>
-          <li><a href="#">
-              <span class="icon"><i class="fas fa-paint-brush"></i></span>
-              <span class="title">Scheduled</span>
-            </a></li>
-          <li><a href="#">
-              <span class="icon"><i class="fas fa-th-list"></i></span>
-              <span class="title">View Data</span>
-            </a></li>
-          <li><a href="#">
-              <span class="icon"><i class="fas fa-users"></i></span>
-              <span class="title">Our Clients</span></a></li>
-          <li><a href="#" class="active">
-              <span class="icon"><i class="fas fa-user"></i></span>
-              <span class="title">My Customers</span>
-            </a></li>
-        </ul>
-      </div>
+      <!--SideNav-->
+      <nav class="sidenav">
+        <div class="sidebar">
+          <ul>
+            <li><a href="dashboard2.html">
+                <span class="icon"><i class="fas fa-chart-pie"></i></span>
+                <span class="title">Business Chart</span></a></li>
+            <li><a href="#">
+                <span class="icon"><i class="fas fa-paint-brush"></i></span>
+                <span class="title">Scheduled</span>
+              </a></li>
+            <li><a href="#">
+                <span class="icon"><i class="fas fa-th-list"></i></span>
+                <span class="title">View Data</span>
+              </a></li>
+            <li><a href="#">
+                <span class="icon"><i class="fas fa-users"></i></span>
+                <span class="title">Our Clients</span></a></li>
+            <li><a href="#" class="active">
+                <span class="icon"><i class="fas fa-user"></i></span>
+                <span class="title">My Customers</span>
+              </a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
 
   <!--Menu Bar End-->
+
+
   <!--Main-->
 
-  <div class="container123">
-    <div class="menu-item">
-      <h4>My Customers</h4>
-      <button class="btn submenubtn"><i class="fas fa-plus"></i> Add New</button>
-    </div>
-    <div class="container-fluid main_container p-0">
-      <div class="row containerrow">
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 pr-0 ordercard1">
-          <div class="card cardfordata">
-            <div class="card-body rightcards">
-              <div class="mainheader">
-                <div>
-                  <h6 class="card-title">Orders</h6>
-                  <h3 class="card-subtitle">2,600</h3>
-                </div>
-                <div class="sideimg">
-                  <img src="images/inmg1.png" alt="" class="sideimg1">
+  <main class="body-main">
+    <div class="container123 p-0">
+      <div class="menu-item">
+        <h4>My Customers</h4>
+        <button class="btn submenubtn"><i class="fas fa-plus"></i> Add New</button>
+      </div>
+      <section class="section-1">
+        <div class="container-fluid container1">
+          <div class="row container1row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 order1">
+              <div class="card card1">
+                <div class="card-body card1body">
+                  <div class="cardheader">
+                    <div>
+                      <h5 class="card-title">Orders</h5>
+                      <h2 class="card-subtitle">2,600</h2>
+                    </div>
+                    <div class="sideimg">
+                      <img src="images/inmg1.png" alt="" class="sideimg1">
+                    </div>
+                  </div>
+                  <div class="card1data">
+                    <div class="colrbtns">
+                      <div class="colrbtns1 d-flex">
+                        <div class="checkdiv"></div>
+                        <h5>$30,000</h5>
+                      </div>
+                      <p class="text-mute downtxt">Total Value</p>
+                    </div>
+                    <div class="colrbtns">
+                      <div class="colrbtns1 d-flex">
+                        <div class="checkdiv1"></div>
+                        <h5>35,776</h5>
+                      </div>
+                      <p class="text-mute downtxt1">Total Quantity</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="dataoncard">
-                <div class="colrbtns">
-                  <div class="colrbtns1">
-                    <div class="checkdiv">
+
+              <div class="card card1 mt-3 ">
+                <div class="card-body card1body">
+                  <div class="cardheader">
+                    <div>
+                      <h5 class="card-title">Sample Orders</h5>
+                      <h2 class="card-subtitle">3,820</h2>
                     </div>
-                    <h5>$30,000</h5>
+                    <div class="sideimg">
+                      <img src="images/dash30.jpg" alt="" class="sideimg2">
+                    </div>
                   </div>
-                  <p class="text-mute downtxt">Total Value</p>
+                  <div class="card1data">
+                    <div class="colrbtns">
+                      <div class="colrbtns1  d-flex">
+                        <div class="checkdiv">
+                        </div>
+                        <h5>$30,000</h5>
+                      </div>
+                      <p class="text-mute downtxt">Total Value</p>
+                    </div>
+                    <div class="colrbtns">
+                      <div class="colrbtns1  d-flex">
+                        <div class="checkdiv1"></div>
+                        <h5>35,776</h5>
+                      </div>
+                      <p class="text-mute downtxt1">Total Quantity</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="colrbtns">
-                  <div class="colrbtns1">
-                    <div class="checkdiv1"></div>
-                    <h5>35,776</h5>
+              </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs-6 pr-3 pl-0">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 productcard1">
+                  <div class="card card2 card21">
+                    <div class="card-body card2body">
+                      <div class="card2-hdr">
+                        <h5 class="card-title">Products</h5>
+                        <h2 class="card-subtitle">68,903</h2>
+                      </div>
+                      <div class="datacrcls">
+                        <div class="imgbox">
+                          <div class="img1">
+                            <div class="img2"></div>
+                          </div>
+                        </div>
+                        <div class="colrcrcls">
+                          <div class="colrcrcls1">
+                            <div class="rings"></div>
+                            <h5>24,456</h5>
+                          </div>
+                          <p class="text-mute downtxt">Products within <br> Orders</p>
+                        </div>
+                        <div class="colrcrcls">
+                          <div class="colrcrcls1">
+                            <div class="rings1"></div>
+                            <h5>27,878</h5>
+                          </div>
+                          <p class="text-mute downtxt1">Products within <br> Sample Orders</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <p class="text-mute downtxt1">Total Quantity</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pl-0 productcard2">
+                  <div class="card card2 card22">
+                    <div class="card-body card2body">
+                      <div class="card2-hdr">
+                        <h5 class="card-title">Delivery Locations </h5>
+                        <h2 class="card-subtitle">80,368</h2>
+                      </div>
+                      <div class="datacrcls">
+                        <div class="imgbox1">
+                          <div class="img1">
+                            <div class="img2"></div>
+                          </div>
+                        </div>
+                        <div class="colrcrcls">
+                          <div class="colrcrcls1">
+                            <div class="rings"></div>
+                            <h5>40,456</h5>
+                          </div>
+                          <p class="text-mute downtxt">Shipping location <br> of Orders</p>
+                        </div>
+                        <div class="colrcrcls">
+                          <div class="colrcrcls1">
+                            <div class="rings1"></div>
+                            <h5>40,878</h5>
+                          </div>
+                          <p class="text-mute downtxt1">Shipping location <br> of Sample Orders</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0 m-0 productcard3">
+                <div class="card mt-3 card3">
+                  <div class="card-body card3body">
+                    <div class="card3-lefthdr d-flex">
+                      <i class="fa fa-male"></i>
+                      <h6 class="leftside-hdr1">9,473</h6>
+                      <h6 class="leftside-hdr2">Active Customers</h6>
+                    </div>
+                    <div class="card3data d-flex">
+                      <div class="card3-righthdr">
+                        <h5>Customers</h5>
+                        <h2>23,689</h2>
+                      </div>
+                      <div class="human-icon">
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1"></i>
+                        <i class="fas fa-male human1 human2"></i>
+                        <i class="fas fa-male human1 human2"></i>
+                        <i class="fas fa-male human1 human2"></i>
+                        <i class="fas fa-male human1 human2"></i>
+                        <i class="fas fa-male human2 human1"></i>
+                        <i class="fas fa-male human2 human1"></i>
+                        <i class="fas fa-male human2 human1"></i>
+                        <i class="fas fa-male human2 human1"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human2 human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                        <i class="fas fa-male human3"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="card cardfordata mt-1 cardfordata12">
-            <div class="card-body rightcards">
-              <div class="mainheader">
-                <div>
-                  <h6 class="card-title">Sample Orders</h6>
-                  <h3 class="card-subtitle">3,820</h3>
-                </div>
-                <div class="sideimg">
-                  <img src="images/dash30.jpg" alt="" class="sideimg2">
-                </div>
-              </div>
-              <div class="dataoncard">
-                <div class="colrbtns">
-                  <div class="colrbtns1">
-                    <div class="checkdiv">
-                    </div>
-                    <h5>$30,000</h5>
-                  </div>
-                  <p class="text-mute downtxt">Total Value</p>
-                </div>
-                <div class="colrbtns">
-                  <div class="colrbtns1">
-                    <div class="checkdiv1"></div>
-                    <h5>35,776</h5>
-                  </div>
-                  <p class="text-mute downtxt1">Total Quantity</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs-6 pl-1 productcard1">
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pr-1 productcard11">
-              <div class="card cardfordata" style="height:220px;">
-                <div class="card-body leftcard">
-                  <div class="sidecard-hdr">
-                    <h5 class="card-title">Products</h5>
-                    <h2 class="card-subtitle">68,903</h2>
-                  </div>
-                  <div class="datacrcls">
-                    <div class="imgbox">
-                      <div class="img1">
-                        <div class="img2"></div>
-                      </div>
-                    </div>
-                    <div class="colrcrcls">
-                      <div class="colrcrcls1">
-                        <div class="rings"></div>
-                        <h5>24,456</h5>
-                      </div>
-                      <p class="text-mute downtxt">Products within Orders</p>
-                    </div>
-                    <div class="colrcrcls">
-                      <div class="colrcrcls1">
-                        <div class="rings1"></div>
-                        <h5>27,878</h5>
-                      </div>
-                      <p class="text-mute downtxt1">Products within Sample Orders</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pl-0 productcard12">
-              <div class="card cardfordata  " style="height: 220px;">
-                <div class="card-body leftcard">
-                  <div class="sidecard-hdr">
-                    <h5 class="card-title">Delivery Locations </h5>
-                    <h2 class="card-subtitle">80,368</h2>
-                  </div>
-                  <div class="datacrcls">
-                    <div class="imgbox1">
-                      <div class="img1">
-                        <div class="img2"></div>
-                      </div>
-                    </div>
-                    <div class="colrcrcls">
-                      <div class="colrcrcls1">
-                        <div class="rings"></div>
-                        <h5>40,456</h5>
-                      </div>
-                      <p class="text-mute downtxt">Shipping location of Orders</p>
-                    </div>
-                    <div class="colrcrcls">
-                      <div class="colrcrcls1">
-                        <div class="rings1"></div>
-                        <h5>40,878</h5>
-                      </div>
-                      <p class="text-mute downtxt1">Shipping location of Sample Orders</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0 m-0 productcard13">
-            <div class="card mt-1 cardfordata cardfordata123" style="height: 152px;">
-              <div class="card-body lastcard">
-                <div class="leftside-hdr d-flex">
-                  <i class="fa fa-male" style="color: gold;"></i>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0 m-0 productcard4">
+            <div class="card mt-3 card3">
+              <div class="card-body card3body">
+                <div class="card3-lefthdr d-flex">
+                  <i class="fa fa-male"></i>
                   <h6 class="leftside-hdr1">9,473</h6>
-                  <h6>Active Customers</h6>
+                  <h6 class="leftside-hdr2">Active Customers</h6>
                 </div>
-                <div class="lastcarddata">
-                  <div class="rightside-hdr">
+                <div class="card3data d-flex">
+                  <div class="card3-righthdr">
                     <h5>Customers</h5>
                     <h2>23,689</h2>
                   </div>
@@ -247,11 +346,7 @@
                     <i class="fas fa-male human1"></i>
                     <i class="fas fa-male human1"></i>
                     <i class="fas fa-male human1"></i>
-                    <i class="fas fa-male human1"></i>
-                    <i class="fas fa-male human1"></i>
-                    <i class="fas fa-male human1"></i>
-                    <i class="fas fa-male human1"></i>
-                    <i class="fas fa-male  human1 human2"></i>
+                    <i class="fas fa-male human1 human2"></i>
                     <i class="fas fa-male human1 human2"></i>
                     <i class="fas fa-male human1 human2"></i>
                     <i class="fas fa-male human1 human2"></i>
@@ -273,9 +368,9 @@
                     <i class="fas fa-male human2 human3"></i>
                     <i class="fas fa-male human2 human3"></i>
                     <i class="fas fa-male human2 human3"></i>
-                    <i class="fas fa-male human2 human3"></i>
-                    <i class="fas fa-male human2 human3"></i>
-                    <i class="fas fa-male human2 human3"></i>
+                    <i class="fas fa-male human3"></i>
+                    <i class="fas fa-male human3"></i>
+                    <i class="fas fa-male human3"></i>
                     <i class="fas fa-male human3"></i>
                     <i class="fas fa-male human3"></i>
                     <i class="fas fa-male human3"></i>
@@ -302,265 +397,197 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 productcard131">
-      <div class="card cardfordata m-3 p-1">
-        <div class="card-body lastcard">
-          <div class="leftside-hdr d-flex">
-            <i class="fa fa-male" style="color: gold;"></i>
-            <h6 class="leftside-hdr1">9,473</h6>
-            <h6>Active Customers</h6>
+      </section>
+      <!--Section-1 end-->
+
+      <section class="section-2">
+
+        <div class="table-filter">
+          <div class="filters">
+            <button type="button" class="btn datahidingbtn" data-toggle="collapse" data-target="#myTable">
+              <i class="fas fa-chevron-down downbtn"></i>
+              Hide Statistics
+            </button>
           </div>
-          <div class="lastcarddata">
-            <div class="rightside-hdr">
-              <h5>Customers</h5>
-              <h2>23,689</h2>
+          <br>
+          <div class="filters1 d-flex">
+            <div class="rightfilters">
+              <input type="text" placeholder="Search Keywords" class="searchbox1">
+              <input type="text" placeholder="By Customer" class="searchbox2">
+              <i class="fas fa-filter filtericon"></i>
             </div>
-            <div class="human-icon">
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male human1"></i>
-              <i class="fas fa-male  human1 human2"></i>
-              <i class="fas fa-male human1 human2"></i>
-              <i class="fas fa-male human1 human2"></i>
-              <i class="fas fa-male human1 human2"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1 "></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human1"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human2 human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
-              <i class="fas fa-male human3"></i>
+            <div class="leftfilters">
+              <i class="fas fa-filter filtericon1 d-none"></i>
+              <i class="fas fa-sort-amount-up-alt sortbtn"></i>
+              <i class="fas fa-th-large iconbtn"></i>
+              <button class="btn actionbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Action<i class="fas fa-angle-down downbtnn"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="">Active</a>
+                <a class="dropdown-item" href="">Inactive</a>
+                <a class="dropdown-item" href="">Delete</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!--Table Filter-->
+      <section class="section-3">
+        <div class="container-fluid tablecontainer">
+          <table class="table table-striped datatable collapse show" id="myTable">
+            <thead>
+              <tr>
+                <th>
+                  <div class="custom-control custom-checkbox custchkbx tablehdr">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">Customer</label>
+                    <i class="fas fa-sort updownarw"></i>
+                  </div>
+                </th>
+                <th>Email<i class="fas fa-sort updownarw"></i></th>
+                <th>Phone No.</th>
+                <th>Company<i class="fas fa-sort updownarw"></i></th>
+                <th>Group<i class="fas fa-sort updownarw"></i></th>
+                <th>Country<i class="fas fa-sort updownarw "></i> </th>
+                <th>Reg. Date<i class="fas fa-sort updownarw"></i></th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row2">
+                <td>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">John Edwards</label>
+                  </div>
+                </td>
+                <td>john@example.com</td>
+                <td>+91-9666698563</td>
+                <td>Infosys</td>
+                <td>Wolf Group</td>
+                <td>US</td>
+                <td>06-28-2015</td>
+                <td>
+                  <div class="activebtn">
+                    <div class="activebtn1"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">Justin Janardhan</label>
+                  </div>
+                </td>
+                <td>john@example.com</td>
+                <td>+91-9666698563</td>
+                <td>Infosys</td>
+                <td>Wolf Group</td>
+                <td>US</td>
+                <td>06-28-2015</td>
+                <td>
+                  <div class="activebtn">
+                    <div class="activebtn1"></div>
+                  </div>
+                </td>
 
-    <div class="table-filter">
-      <div class="filters">
-        <button type="button" class="btn datahidingbtn" data-toggle="collapse" data-target="#myTable">
-          <i class="fas fa-chevron-down downbtn"></i>
-          Hide Statistics
-        </button>
-        <br>
+              </tr>
+              <tr class="row2">
+                <td>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">John Edwards</label>
+                  </div>
+                </td>
+                <td>john@example.com</td>
+                <td>+91-9666698563</td>
+                <td>Infosys</td>
+                <td>Wolf Group</td>
+                <td>US</td>
+                <td>06-28-2015</td>
+                <td>
+                  <div class="activebtn">
+                    <div class="activebtn1"></div>
+                  </div>
+                </td>
 
-        <input type="text" placeholder="Search Keywords" class="searchbox1">
+              </tr>
+              <tr>
+                <td>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">John Edwards</label>
+                  </div>
+                </td>
+                <td>john@example.com</td>
+                <td>+91-9666698563</td>
+                <td>Infosys</td>
+                <td>Wolf Group</td>
+                <td>US</td>
+                <td>06-28-2015</td>
+                <td>
+                  <div class="activebtn">
+                    <div class="activebtn1"></div>
+                  </div>
+                </td>
 
-        <input type="text" placeholder="By Customer" class="searchbox2">
-        <i class="fas fa-filter filtericon"></i>
-        <i class="fas fa-sort-amount-up-alt sortbtn"></i>
-        <i class="fas fa-th-large iconbtn"></i>
+              </tr>
+              <tr class="row2">
+                <td>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">John Edwards</label>
+                  </div>
+                </td>
+                <td>john@example.com</td>
+                <td>+91-9666698563</td>
+                <td>Infosys</td>
+                <td>Wolf Group</td>
+                <td>US</td>
+                <td>06-28-2015</td>
+                <td>
+                  <div class="activebtn">
+                    <div class="activebtn1"></div>
+                  </div>
+                </td>
 
-
-        <button class="btn actionbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
-          Action<i class="fas fa-angle-down downbtnn"></i>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="">Active</a>
-          <a class="dropdown-item" href="">Inactive</a>
-          <a class="dropdown-item" href="">Delete</a>
+              </tr>
+              <tr>
+                <td>
+                  <div class="custom-control custom-checkbox custchkbx">
+                    <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">John Edwards</label>
+                  </div>
+                </td>
+                <td>john@example.com</td>
+                <td>+91-9666698563</td>
+                <td>Infosys</td>
+                <td>Wolf Group</td>
+                <td>US</td>
+                <td>06-28-2015</td>
+                <td>
+                  <div class="activebtn">
+                    <div class="activebtn1"></div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-
-      <div class="container-fluid tablecontainer">
-        <table class="table table-striped datatable collapse show" id="myTable">
-          <thead>
-            <tr>
-              <th>
-                <div class="custom-control custom-checkbox custchkbx tablehdr">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">Customer</label>
-                  <i class="fas fa-sort updownarw"></i>
-                </div>
-              </th>
-              <th>Email<i class="fas fa-sort updownarw"></i></th>
-              <th>Phone No.</th>
-              <th>Company<i class="fas fa-sort updownarw"></i></th>
-              <th>Group<i class="fas fa-sort updownarw"></i></th>
-              <th>Country<i class="fas fa-sort updownarw "></i> </th>
-              <th>Reg. Date<i class="fas fa-sort updownarw"></i></th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="row2">
-              <td>
-                <div class="custom-control custom-checkbox custchkbx">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">John Edwards</label>
-                </div>
-              </td>
-              <td>john@example.com</td>
-              <td>+91-9666698563</td>
-              <td>Infosys</td>
-              <td>Wolf Group</td>
-              <td>US</td>
-              <td>06-28-2015</td>
-              <td>
-                <div class="activebtn">
-                  <div class="activebtn1"></div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="custom-control custom-checkbox custchkbx">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">Justin Janardhan</label>
-                </div>
-              </td>
-              <td>john@example.com</td>
-              <td>+91-9666698563</td>
-              <td>Infosys</td>
-              <td>Wolf Group</td>
-              <td>US</td>
-              <td>06-28-2015</td>
-              <td>
-                <div class="activebtn">
-                  <div class="activebtn1"></div>
-                </div>
-              </td>
-
-            </tr>
-            <tr class="row2">
-              <td>
-                <div class="custom-control custom-checkbox custchkbx">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">John Edwards</label>
-                </div>
-              </td>
-              <td>john@example.com</td>
-              <td>+91-9666698563</td>
-              <td>Infosys</td>
-              <td>Wolf Group</td>
-              <td>US</td>
-              <td>06-28-2015</td>
-              <td>
-                <div class="activebtn">
-                  <div class="activebtn1"></div>
-                </div>
-              </td>
-
-            </tr>
-            <tr>
-              <td>
-                <div class="custom-control custom-checkbox custchkbx">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">John Edwards</label>
-                </div>
-              </td>
-              <td>john@example.com</td>
-              <td>+91-9666698563</td>
-              <td>Infosys</td>
-              <td>Wolf Group</td>
-              <td>US</td>
-              <td>06-28-2015</td>
-              <td>
-                <div class="activebtn">
-                  <div class="activebtn1"></div>
-                </div>
-              </td>
-
-            </tr>
-            <tr class="row2">
-              <td>
-                <div class="custom-control custom-checkbox custchkbx">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">John Edwards</label>
-                </div>
-              </td>
-              <td>john@example.com</td>
-              <td>+91-9666698563</td>
-              <td>Infosys</td>
-              <td>Wolf Group</td>
-              <td>US</td>
-              <td>06-28-2015</td>
-              <td>
-                <div class="activebtn">
-                  <div class="activebtn1"></div>
-                </div>
-              </td>
-
-            </tr>
-            <tr>
-              <td>
-                <div class="custom-control custom-checkbox custchkbx">
-                  <input type="checkbox" class="custom-control-input custchkbx1" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">John Edwards</label>
-                </div>
-              </td>
-              <td>john@example.com</td>
-              <td>+91-9666698563</td>
-              <td>Infosys</td>
-              <td>Wolf Group</td>
-              <td>US</td>
-              <td>06-28-2015</td>
-              <td>
-                <div class="activebtn">
-                  <div class="activebtn1"></div>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      </section>
     </div>
-
-    <footer>
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
-      </script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
-      </script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
-      </script>
-    </footer>
-  </div>
+  </main>
+  <footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+  </footer>
 </body>
 
 </html>
