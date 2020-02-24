@@ -225,7 +225,7 @@ h5 {
 /*sub-menu*/
 .container123 .menu-item {
   height: 62px;
-  padding-left: 15px;
+  padding-left: 20px;
   display: flex;
   position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
